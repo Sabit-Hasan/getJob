@@ -1,0 +1,32 @@
+.navContent {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 0 10% 0 10%;
+    min-height: 80px;
+    line-height: 80px;
+
+    .logo{
+        color: whitesmoke;
+    }
+
+    .menu {
+        display: flex;
+
+        .active {
+            color: rgb(245, 139, 0);
+            font-weight: 500;
+        }
+
+        a {
+            margin-right: 30px;
+            text-decoration: none;
+            color: whitesmoke
+        }
+
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+}
